@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script language="javascript" src="http://maps.google.com/maps/api/js?v=3.2&sensor=false">
+    </script>  
+    <script>
+   var online;
+        // check whether this function works (online only)
+        try {
+            var x = google.maps.MapTypeId.TERRAIN;
+            window.location = "http:/localhost/nakumatt/";
+            online = true;
+        } catch (e) {
+            window.location = "error.html";
+            online = false;
+        }
+      
+      
+    </script>
+        
+</head>
+<body>
+
+</body>
+</html>

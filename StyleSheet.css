@@ -1,0 +1,22 @@
+﻿body {
+}
+p{
+  width:200px;
+	height:45px;
+    background-color:#00a2d1;
+    border:2px solid solid;
+	cursor:pointer;
+	border-radius:13px;
+	box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
+	color:#f9f9f9;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bolder;
+	text-align:center;
+  padding-top:10px;
+  
+}
+a{  color:white;width:150px;
+    text-decoration:none;
+    }
+h2{color:red;}
